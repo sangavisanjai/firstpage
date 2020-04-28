@@ -2,235 +2,324 @@
 <html>
 <head>
 <title>
-pfl
+SANGAVIKANDHASAMY
 </title>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 </head>
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-<link rel="stylesheet"href="style.css">
-<meta name="viewport" content="width=device-width,initial-scale=1.0">
+
 <style>
-.bgimg{
-background-repeat:no-repeat;
+body{
+margin:0;
+padding:0;
+}
+#nav-bar{
+position:sticky;
+top:0;
+z-index:10;
+}
+.navbar-nav li{
+padding:0 10px;
+}
+.navbar-nav li a{
+float:right;
+text-align:left;
+}
+#nav-bar ul li a:hover{
+color:white;
+}
+.navbar{
+background:#0066cc;
+}
+.navbar-toggler{
+
+}
+.nav-link{
+color:yellow;
+font-weight:600;
+font-size:1.2em;
+}
+.bg-img{
+background-image:url("https://visme.co/blog/wp-content/uploads/2017/07/50-Beautiful-and-Minimalist-Presentation-Backgrounds-01.jpg");
 position:absolute;
+top:9%;
 left:0%;
-right:0%;
-}
-.h-button{
-width:6.5%;
-height:5.5%;
-text-align:center;
-background-color:#33AFDA;
-text-decoration:none;
-text-transform:capitalize;
-opacity:0.8;
-font-size:1.5vw;
-color:white;
-position:absolute;
-top:3%;
-left:60%;
-border:1px solid #b3ccff;
-cursor:pointer;
-}
-.button:hover{
-background-color:#82C1CE;
-color:black;
-transistion:0.5s;
-}
-.a-button{
-width:7.0%;
-height:5.5%;
-text-align:center;
-background-color:#33AFDA;
-text-decoration:none;
-text-transform:capitalize;
-opacity:0.8;
-font-size:1.5vw;
-color:white;
-position:absolute;
-top:3%;
-left:68%;
-border:1px solid #b3ccff;
-cursor:pointer;
-}
-.button:hover{
-background-color:#82C1CE;
-color:black;
-transistion:0.5s;
-}
-.s-button{
-width:7.5%;
-height:5.5%;
-text-align:center;
-background-color:#33AFDA;
-text-decoration:none;
-text-transform:capitalize;
-opacity:0.8;
-font-size:1.6vw;
-color:white;
-position:absolute;
-top:3%;
-left:76.8%;
-border:1px solid #b3ccff;
-cursor:pointer;
-}
-.c-button{
-width:8.0%;
-height:5.5%;
-text-align:center;
-background-color:#33AFDA;
-text-decoration:none;
-text-transform:capitalize;
-opacity:0.8;
-font-size:1.5vw;
-color:white;
-position:absolute;
-top:3%;
-left:86%;
-border:1px solid #b3ccff;
-cursor:pointer;
-}
-.button:hover{
-background-color:;#82C1CE
-color:black;
-transistion:0.5s;
-}
-.ci-button{
-position:absolute;
-left:44.5%;
-top:50%;
-height:5%;
-width:15%;
-border-radius:3px;
-border:2px yellow;
-background-color:#dc143c;
-color:#3EAC66;
-font-size:20px;
-border:1px solid #3EAC66;
-cursor:pointer;
-}
-.welcome{
-font-size:2.9vw;
-position:absolute;
-left:34%;
-top:24%;
-color:grey;
-}
-.name{
-font-size:2.9vw;
-position:absolute;
-left:44.8%;
-top:36%;
-color:grey;
-}
-.about{
-border:2px solid grey;
-height:31%;
+height:90%;
 width:100%;
-position:absolute;
-left:0px;
-top:77%;
 }
-.abt{
+.hquote{
 position:absolute;
-left:3%;
 top:35%;
-font-size:2.6vw;
-color:voilet;
+left:35%;
+font-weight:600;
+font-size:2.5em;
+text-transform:uppercase;
+color:white;
 }
-.basicinf{
+.hquote1{
 position:absolute;
-left:65%;
-top:20%;
-font-size:2.1vw;
+top:45%;
+left:38%;
+font-weight:400;
+font-size:2.5em;
+text-transform:uppercase;
+color:white;
 }
-.skills{
-border:2px solid grey;
-height:30%;
-width:100%;
+.social ul{
+margin:0;
+padding:0;
 position:absolute;
-left:0%;
-top:108%;
+top:64%;
+left:53%;
+transform:translate(-50%,-50%);
 }
-.skl{
-position:absolute;
-left:8.5%;
+.social ul li{
+
+list-style:none;
+float:left;
+margin:15px;
+height:40px;
+width:40px;
+line-height:40px;
+text-align:center;
+background:white;
+border-radius:50%;
+font-size:150%;
+position:relative;
+color:#262626;
+z-index:1;
 }
-.skr{
+.social ul li:before{
+content:'';
+height:88%;
+width:88%;
 position:absolute;
-left:75%;
+top:6%;
+left:6%;
+background:blue;
+border-radius:50%;
+transform:scale(0);
+transition:.5s ease-in-out;
+z-index:-1;
 }
 
+.social ul li:hover:before{
+
+transform:scale(1);
+
+}
+
+.social ul li:hover{
+
+color:white;
+}
 .contact{
-border:2px solid grey;
-height:26%;
-width:100%;
 position:absolute;
+color:white;
 left:0%;
-top:138%;
+top:300%;
 font-size:1.3vw;
+height:43%;
+width:100%;
+background:black;
 }
-
+.about_me{
+align:center;
+position:absolute;
+top:105%;
+left:43%;
+}
+.line{
+border:none;
+height:0.3vw;
+width:60%;
+background:black;
+line-height:3;
+}
+.qt1{
+		color:black;
+		border:1px solid gray;
+		width:21vw;
+		height:29vw;
+		border-radius:10px;
+		box-shadow:6px 6px 15px #85929E;
+		position:absolute;
+		top:192.5%;
+		left:9%;
+		background-image:linear-gradient(to top left, #cceeff,#1a75ff);
+	}
+	.qt1:hover{
+	
+	box-shadow:3px 4px 9px 6px #85929E;
+	}
+	.qt2{
+		color:black;
+		border:1px solid gray;
+		width:21vw;
+		height:29vw;
+		border-radius:10px;
+		box-shadow:6px 6px 15px #85929E;
+		position:absolute;
+		top:192.5%;
+		left:39%;
+		background-image:linear-gradient(to top left, #cceeff,#1a75ff);
+	}
+	.qt2:hover{
+	
+	box-shadow:3px 4px 9px 6px #85929E;
+	}
+	.qt3{
+		color:black;
+		border:1px solid gray;
+		width:21vw;
+		height:29vw;
+		border-radius:10px;
+		box-shadow:6px 6px 15px #004080;
+		position:absolute;
+		top:192.5%;
+		left:68.5%;
+		background-image:linear-gradient(to top left, #cceeff,#1a75ff);
+	}
+	.qt3:hover{
+	
+	box-shadow:3px 4px 9px 6px #85929E;
+	}
+	h1 {
+	text-align:center;
+	font-size:2.3vw;
+	}
+	p{
+	text-align:center;
+	font-size:1.3vw;
+	overflow:visible;
+	}
 </style>
 <body>
-<div class="bgimg">
-<img src="https://userscontent2.emaze.com/images/93b859f2-0037-49f8-af19-246cb1652f28/eb2ed28ab7b4d5fb653164394796a227.jpg" width="100%" height="75%">
-<a href="#"><button class="h-button">home</button></a>
-<button class="a-button">about</button></a>
-<button class="s-button">skills</button>
-<button class="c-button">contact</button>
-<h2 class="welcome">WELCOME TO MY WEBSITE</h2>
-<h1 class="name">SANGAVI</h1>
-<button class="ci-button" style="font-size:1.6vw">CONTACT ME</button>
+<section id="nav-bar">
+<nav class="navbar navbar-expand-lg navbar-light">
+  <a class="navbar-brand" href="#">SK</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">HOME</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">ABOUT ME</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          SKILLS
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" style="background-color:#0066cc;" href="#">EDUCATION</a>
+          <a class="dropdown-item" style="background-color:#0066cc;" href="#">PROGRAMMING</a>
+          <a class="dropdown-item"style="background-color:#0066cc;" href="#">SPORTS</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#contactt">Contact</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+</section>
+<div class="bg-img">
 </div>
-<div class="about">
-<h1 align="center"  style="font-size:2.5vw">ABOUT ME</h1>
-<div class="abt" id="a">
-Hii! I am a Designer<br>
-I am willing to work with hard workers..<br>
-My aim to became a good software engineer--..
+<div class="hquote">
+hello</div>
+<div class="hquote1">
+i am <r style="color:#0066cc">sangavi</r>
 </div>
-<div class="basicinf">
-<b>BASIC INFORMATION:<b><br>
-Name:    Sangavi.<br>
-Age:     19.<br>
-D.O.B:   15.02.2000.<br>
-Address: 8/90,velur,kangayam.<br>
-Email:   sangavisanjai222@gmail.com
+<div class="social">
+<ul>
+<li>
+<a href="#">
+<i class="fab fa-google"></i>
+</a>
+</li>
+<li>
+<a href="#">
+<i class="fab fa-whatsapp"></i>
+</a>
+</li>
+<li>
+<a href="#">
+<i class="fab fa-instagram"></i>
+</a>
+</li>
+<li>
+<a href="https://m.facebook.com/sangavi.sangavi.902266?ref=bookmarks">
+<i class="fab fa-facebook-f"></i>
+</a>
+</li>
+<li>
+<a href="#">
+<i class="fab fa-linkedin-in"></i></li>
+</ul>
 </div>
+</h1>
+<div class="box">
+<div class="qt1" id="t1">
+<h1>B.E CSE*<br>(2021)*</h1>
+<p>
+Computer Science and Engineering<br>
+K.S.R College of Engineering<br>
+(Autonomus)<br>
+Tiruchengode,<br>
+Namakkal(Dt)<br>
+Tamilnadu<br>
+<b>CGPA: 8.90* (upto IV sem)</b>
+</p>
 </div>
-<div class="skills">
-<h1 align="center"  style="font-size:2.5vw">SKILLS</h1>
-<div class="skl">
-<lable  style="font-size:1.6vw">C:</lable>
-<progress value="80" max="100">80%</progress><br><br><br>
-<lable  style="font-size:1.6vw">C++:</lable>
-<progress value="60" max="100">60%</progress><br><br><br>
-<lable  style="font-size:1.6vw">JAVA:</lable>
-<progress value="45" max="100">45%</progress>
+<div class="qt2">
+<h1>HSC<br>(2017)</h1>
+<p>
+Carmel Girls Hr.sec.School,<br>
+Kangayam<br>
+Tiruppur(Dt)<br>
+Tamilnadu<br>
+<b>Percentage: 87.5%</B>
+</p>
 </div>
-<div class="skr">
-<lable  style="font-size:1.6vw">HTML:</lable>
-<progress value="60" max="100">60%</progress><br><br><br>
-<lable  style="font-size:1.6vw">CSS:</lable>
-<progress value="30" max="100">30%</progress><br><br><br>
-<lable  style="font-size:1.6vw">SQL:</lable>
-<progress value="40" max="100">40%</progress>
+<div class="qt3">
+<h1>SSLC
+<br>(2015)</h1>
+<p>
+Carmel Girls Hr.Sec.School,<br>
+Kangayam<br>
+Tiruppur(Dt)<br>
+Tamilnadu<br>
+<b>Percentage: 90.5%</B>
+</p>
 </div>
-</div>
-<div class="contact">
-<h1 align="center"  style="font-size:2.5vw">CONTACT</h1>
+<div class="contact" id="contactt">
+<br>
+<h1 align="center" style="font-size:2.5vw">CONTACT</h1>
 <center>
 K.SANGAVI<br>
-k.s.r college of engineering<br>
+K.S.R college of Engineering<br>
 Thiruchengode<br>
 sangavisanjai222@gmail.com<br>
 9080257117<br>
-<i class="fab fa-facebook-f"></i>
-<i class="fab fa-whatsapp"></i>
-<i class="fas fa-at"></i>
-<i class="fab fa-instagram"></i><br>
+<i class="fab fa-google"></i>&nbsp&nbsp
+<i class="fab fa-whatsapp"></i>&nbsp&nbsp
+<i class="fab fa-instagram"></i>&nbsp&nbsp
+<i class="fab fa-facebook-f"></i>&nbsp&nbsp
+<i class="fab fa-linkedin-in"></i><br>&nbsp&nbsp
 &copy;copyright
 </center>
+</div>
+<div class="about_me">
+<h1>About-Me</h1>
+<hr class="line">
 </div>
 </body>
 </html>
